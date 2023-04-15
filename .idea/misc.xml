@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/drawable/btn_bg.xml" value="0.36875" />
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/drawable/button1_bg.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/drawable/button6_bg.xml" value="0.36875" />
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/drawable/button7_bg.xml" value="0.3828125" />
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/drawable/button8_bg.xml" value="0.3828125" />
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/layout/activity_magazine.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/layout/activity_main.xml" value="0.2884963768115942" />
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/layout/activity_qrcodes.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/layout/alert_magazine.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/layout/alert_scaning.xml" value="0.28719723183391005" />
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/layout/card_captioned_image.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/layout/card_captioned_image_magazine.xml" value="0.15" />
+        <entry key="..\:/Users/Thor Odynson/Desktop/QRScanner/app/src/main/res/menu/main.xml" value="0.20520833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

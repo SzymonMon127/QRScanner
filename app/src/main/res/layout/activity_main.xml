@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@android:color/transparent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:minWidth="@dimen/_125mdp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:inputType="number"
+            android:foregroundGravity="center"
+            android:layout_marginTop="@dimen/_5mdp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/btn_bg"
+            android:id="@+id/editText_Code"
+            android:textSize="@dimen/_14font_mdp"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:id="@+id/progress_auto"
+            android:foregroundGravity="center"
+            android:progressDrawable="@drawable/green_progress_drawable"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:foregroundGravity="center"
+            android:layout_marginTop="@dimen/_5mdp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/textView_result"
+            android:textSize="@dimen/_10font_mdp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_5mdp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12font_mdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginEnd="@dimen/_10mdp"
+                android:background="@drawable/button8_bg"
+                android:padding="@dimen/_5mdp"
+                android:layout_marginTop="@dimen/_5mdp"
+                android:text="Resetuj kod"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/_14font_mdp"
+        android:layout_below="@+id/linear"
+        android:layout_marginTop="@dimen/_35mdp"
+        android:background="@drawable/button6_bg"
+        android:padding="@dimen/_5mdp"
+        android:text="Skanuj produkt"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_add_QR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_scan"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/_15mdp"
+        android:layout_marginTop="@dimen/_15mdp"
+        android:layout_marginEnd="@dimen/_15mdp"
+        android:layout_marginBottom="@dimen/_15mdp"
+        android:background="@drawable/button6_bg"
+        android:padding="@dimen/_5mdp"
+        android:text="Edytuj kod kreskowy"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14font_mdp" />
+
+    <Button
+        android:id="@+id/btn_add_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_QR_codes"
+        android:layout_below="@+id/btn_add_QR"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_25mdp"
+        android:background="@drawable/button7_bg"
+        android:gravity="center"
+        android:padding="@dimen/_5mdp"
+        android:text="Dodaj"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12font_mdp" />
+
+    <Button
+        android:id="@+id/btn_QR_codes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_10mdp"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:layout_marginEnd="@dimen/_10mdp"
+        android:layout_marginBottom="@dimen/_10mdp"
+        android:background="@drawable/button6_bg"
+
+        android:padding="@dimen/_5mdp"
+        android:text="Kody QR"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14font_mdp" />
+
+    <Button
+        android:id="@+id/btn_magazine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_10mdp"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:layout_marginEnd="@dimen/_10mdp"
+        android:layout_marginBottom="@dimen/_10mdp"
+        android:background="@drawable/button6_bg"
+        android:padding="@dimen/_5mdp"
+        android:text="Magazyn"
+        android:textSize="@dimen/_14font_mdp"
+        android:textColor="@color/white" />
+</RelativeLayout>
